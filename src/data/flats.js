@@ -8,28 +8,28 @@ const flats = [
     lng: 2.34689
   },
   {
-    name: "Trendy Apt in Buttes Montmartre",
+    name: "Trendy Apt in Quartier Latin",
     imageUrl: "https://s30965.pcdn.co/blogs/the-study/wp-content/uploads/Ando-Studio.jpg",
     price: 200,
     priceCurrency: "EUR",
-    lat: 48.885707,
-    lng: 2.343543
+    lat: 48.849247,
+    lng: 2.338911
   },
   {
     name: "Super 70m2 in trendy neighborhood!",
     imageUrl: "https://s30965.pcdn.co/blogs/the-study/wp-content/uploads/Pierre-Yovanovitch.jpg",
     price: 150,
     priceCurrency: "EUR",
-    lat: 48.885312,
-    lng: 2.341225
+    lat: 48.866130,
+    lng: 2.387694
   },
   {
     name: "Splendide terrasse vue imprenable",
     imageUrl: "https://s30965.pcdn.co/blogs/the-study/wp-content/uploads/artful-french-apartment-design.jpg",
     price: 115,
     priceCurrency: "EUR",
-    lat: 48.88184,
-    lng: 2.343371
+    lat: 48.85878,
+    lng: 2.288759
   },
   {
     name: "Superbe vue à 2 min du Sacré Coeur",

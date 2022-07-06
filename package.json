@@ -1,5 +1,6 @@
 {
   "name": "react-flats",
+  "homepage": "https://jor-alv.github.io/react-flats/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +17,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -39,6 +41,7 @@
   },
   "devDependencies": {
     "eslint": "^8.19.0",
+    "gh-pages": "^4.0.0",
     "sass": "^1.53.0"
   },
   "main": "index.js",

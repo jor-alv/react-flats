@@ -1,7 +1,7 @@
 import React from 'react';
 import Flat from './flat';
 
-const FlatList = ({ flats, selectFlat }) => {
+const FlatList = ({ flats, selectFlat, selectedFlat }) => {
   const renderList = () => {
     return flats.map((flat, index) => {
       return (
@@ -10,6 +10,7 @@ const FlatList = ({ flats, selectFlat }) => {
           key={flat.lng}
           index={index}
           selectFlat={selectFlat}
+          selected={flat.lat === selectedFlat.lat}
         />
       );
     });

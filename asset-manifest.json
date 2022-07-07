@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-flats/static/css/main.55520a74.css",
-    "main.js": "/react-flats/static/js/main.85a9947c.js",
+    "main.js": "/react-flats/static/js/main.a847fa83.js",
     "static/media/map-marker.png": "/react-flats/static/media/map-marker.b3287433c66870db9efe.png",
     "index.html": "/react-flats/index.html",
     "main.55520a74.css.map": "/react-flats/static/css/main.55520a74.css.map",
-    "main.85a9947c.js.map": "/react-flats/static/js/main.85a9947c.js.map"
+    "main.a847fa83.js.map": "/react-flats/static/js/main.a847fa83.js.map"
   },
   "entrypoints": [
     "static/css/main.55520a74.css",
-    "static/js/main.85a9947c.js"
+    "static/js/main.a847fa83.js"
   ]
 }

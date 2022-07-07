@@ -26,7 +26,7 @@ const Map = (props) => {
     // Fit map to the marker
     const bounds = new mapboxgl.LngLatBounds();
     bounds.extend([ props.selectedFlat.lng, props.selectedFlat.lat ]);
-    map.fitBounds(bounds, { padding: 500, maxZoom: 13, duration: 1000 });
+    map.fitBounds(bounds, { padding: 300, maxZoom: 12, duration: 1000 });
 
     // Add map navigation controls (the +/- zoom buttons)
      map.addControl(new mapboxgl.NavigationControl(), "top-right");
